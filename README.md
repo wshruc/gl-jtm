@@ -17,10 +17,9 @@
   > 3. All the pre-processed dataset and the trained model can download from https://pan.baidu.com/s/1G77q15u6AumCFvobP19jxw code: s3rk   
        Download all the data and put it in the corresponding folder.
   > 4. For SimpleQuestions, the data format is
-       *question pattern || question || label || topic entity || answer || relation || entity mention || golden relation || candidate relations ||*
-  
+       `question pattern || question || label || topic entity || answer || relation || entity mention || golden relation || candidate relations ||`
        For WebQSP, the data format is
-       *question pattern || question || label || entity mention || entity mention || topic entity || relation || answer || golden relation || candidate relations*
+       `question pattern || question || label || entity mention || entity mention || topic entity || relation || answer || golden relation || candidate relations`
        Among them, we only use the four columns of question, label, golden relation, and candidate relations when training and testing GL-JTM.
   > 6. We provide a trained model that can be placed in the **./gl-jtm/src/save_models** folder for direct testing.
   
