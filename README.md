@@ -1,8 +1,5 @@
 ## GL-JTM: A Joint Training Framework for Knowledge Base Question Answerings
 * Relation detection and entity recognition are two critical subtasks in semantic parsing-based methods for KBQA and are also important research topics in information retrieval. Most previous studies have considered them as two separate subtasks and have therefore trained their models separately. As a result, these studies have often ignored the potential correlation between them, which might restrict further performance improvements. This paper proposes a global-local joint training model (GL-JTM) to address this problem by combining entity recognition and relation detection under a unified framework.
-
-* Data
-  > 1. The directory structure of the GL-JTM code is as follows:
     —gl-jtm
        —data
          —sq_relations
@@ -11,6 +8,9 @@
        —src
         —save_models
     —results
+* Data
+  > 1. The directory structure of the GL-JTM code is as follows:
+
     First of all, we need to create a folder according to the directory structure and put the above code into the "./gl-jtm/src" directory.
   > 2. Glove [glove.6B.300d.txt] —— Download pre-trained word vectors from <https://nlp.stanford.edu/projects/glove/>
   > 3. All the pre-processed dataset and the trained model can download from https://pan.baidu.com/s/1G77q15u6AumCFvobP19jxw code: s3rk   
