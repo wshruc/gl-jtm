@@ -28,6 +28,8 @@
 
 * Before testing our KBQA system, we need to link the entity mentions obtained from the model to the knowledge base using the entity linking method.
   > 1. The *entity_linking.py* file provides an example of entity linking using the Knowledge Graph Search API.
+  
 * Test our KBQA system
-  > 1. Run `python sq_kbqa_system.py` to test our KBQA system on SimpleQuestions.
-  > 2. Run `python wq_kbqa_system.py` to test our KBQA system on WebQSP.
+  > 1. Run `gen_data_for_sq_kbqa.py` and `gen_data_for_wq_kbqa.py` respectively to generate KBQA system test data based on the obtained relations and topic entities.
+  > 2. Run `python sq_kbqa_system.py` to test our KBQA system on SimpleQuestions.
+  > 3. Run `python wq_kbqa_system.py` to test our KBQA system on WebQSP.
