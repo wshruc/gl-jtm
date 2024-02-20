@@ -3,15 +3,15 @@
 
 * Data
   > 1. The directory structure of the GL-JTM code is as follows:
-          - gl-jtm
-             - data
-               - sq_relations
-               - webqsp_relations
-             - embedding
-             - src
-               - save_models
-          - results
-          
+    - gl-jtm
+       - data
+         - sq_relations
+         - webqsp_relations
+       - embedding
+       - src
+         - save_models
+    - results
+    
     First of all, we need to create a folder according to the directory structure and put the above code into the "./gl-jtm/src" directory.
   > 2. Glove [glove.6B.300d.txt] —— Download pre-trained word vectors from <https://nlp.stanford.edu/projects/glove/>
   > 3. All the pre-processed dataset and the trained model can download from https://pan.baidu.com/s/1G77q15u6AumCFvobP19jxw code: s3rk   
