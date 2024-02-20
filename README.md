@@ -20,9 +20,13 @@
        For WebQSP, the data format is question pattern || question || label || entity mention || entity mention || topic entity || relation || answer || golden relation || candidate 
        relations
        Among them, we only use the four columns of question, label, golden relation, and candidate relations when training and testing GL-JTM.
+  > 5. We provide a trained model that can be placed in the "./gl-jtm/src/save_models" folder for direct testing.
+  
 * GL-JTM Train/Test
   > 1. Run `python main.py -train --data_type sq or python main.py -train --data_type wq` to train our GL-JTM model.
-  > 2. Run `python main.py -test --data_type sq or python main.py -test --data_type wq` to test our GL-JTM model, and the results saved in ../result/
+  > 2. Run `python main.py -test --data_type sq or python main.py -test --data_type wq` to test our GL-JTM model, and the test results saved in ../result/
+
+* Before testing our KBQA system, we need to link the entity mentions obtained from the model to the knowledge base using the entity linking method.
 
 * Test our KBQA system
   > 1. Run `python sq_kbqa_system.py` to test our KBQA system on SimpleQuestions.
